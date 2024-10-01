@@ -28,7 +28,6 @@ omit = [
 [tool.coverage.report]
 fail_under = 80
 show_missing = true
-report = ["term", "html", "xml"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
