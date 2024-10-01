@@ -1,6 +1,7 @@
 def main():
-    print("Hello from python-uv-template!")
+    return_value = "Hello, world!"
+    return return_value
 
 
 if __name__ == "__main__":
-    main()
+    print(main())
