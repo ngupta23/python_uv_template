@@ -21,8 +21,8 @@ branch = true
 source = ["python_uv_template"]
 
 [tool.coverage.run]
-omit = [
-    "tests/*",
+include = [
+    "python_uv_template/*",
 ]
 
 [tool.coverage.report]
