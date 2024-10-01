@@ -1,3 +1,6 @@
+[![lint](https://github.com/ngupta23/python_uv_template/actions/workflows/lint.yaml/badge.svg)](https://github.com/ngupta23/python_uv_template/actions/workflows/lint.yaml)
+[![CI](https://github.com/ngupta23/python_uv_template/actions/workflows/ci.yaml/badge.svg)](https://github.com/ngupta23/python_uv_template/actions/workflows/ci.yaml)
+
 # python_uv_template
 A template for initializing a python repository managed with `uv`
 
@@ -29,4 +32,11 @@ Pre-commit hooks help maintain code quality by running checks before commits. ü
 # Update the .pre-commit-config.yaml if needed, then run the following commands
 pre-commit install
 pre-commit run --all-files
+```
+
+## üèÉ Run tests
+
+Make sure that the tests are passing and that they pass the coverage requirement.
+```bash
+pytest -v --cov --durations=0
 ```
