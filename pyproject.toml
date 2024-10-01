@@ -22,7 +22,7 @@ source = ["python_uv_template"]
 
 [tool.coverage.run]
 omit = [
-    "tests/*",
+    "tests/*"
 ]
 
 [tool.coverage.report]
