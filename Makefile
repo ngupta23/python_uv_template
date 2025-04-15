@@ -1,6 +1,6 @@
 devenv:
 	@echo "Creating development environment..."
-	uv pip install -Ue .
+	uv pip install -Ue . --system
 
 split-tests:
 	@echo "Running tests in parallel for group $${GROUP:-1} of $${SPLITS:-4}..."
