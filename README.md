@@ -28,7 +28,7 @@ make devenv
 
 ## 🔄 Update Dependencies
 
-If you want to add or updated dependencies, you can do so using the `uv` command. This will update the `pyproject.toml` file and the lock file.
+If you want to add or update dependencies, you can do so using the `uv` command. This will update the `pyproject.toml` file and the lock file.
 
 ```bash
 # Update dependencies for production
