@@ -4,7 +4,18 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
-dynamic = ["dependencies"]
+dependencies = [
+    "numpy",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.2.0",
+    "pytest>=8.3.5",
+    "pytest-cov>=6.1.1",
+    "pytest-rerunfailures>=15.0",
+    "pytest-split>=0.10.0",
+]
 
 [build-system]
 requires = ["setuptools >= 61.0", "wheel"]
@@ -12,9 +23,6 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
 packages = ["python_uv_template"]
-
-[tool.setuptools.dynamic]
-dependencies = {file = ["requirements.txt", "requirements-dev.txt"]}
 
 [tool.coverage]
 branch = true

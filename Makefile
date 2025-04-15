@@ -1,6 +1,7 @@
 devenv:
 	@echo "Creating development environment..."
-	uv pip install -Ue . --system
+	uv sync --extra dev --frozen
+	uv run pre-commit install
 
 split-tests:
 	@echo "Running tests in parallel for group $${GROUP:-1} of $${SPLITS:-4}..."
