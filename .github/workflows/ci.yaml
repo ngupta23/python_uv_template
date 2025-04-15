@@ -27,7 +27,7 @@ jobs:
           python-version: "3.10"
 
       - name: Install pip requirements
-        run: pip install uv && uv pip install . --system
+        run: pip install uv && make devenv
 
       - name: Check import
         run: python -c "from python_uv_template.hello import main"
