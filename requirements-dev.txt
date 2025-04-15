@@ -1,5 +1,0 @@
-pre-commit
-pytest
-pytest-cov
-pytest-rerunfailures>=15.0
-pytest-split>=0.10.0
