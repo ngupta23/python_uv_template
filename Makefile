@@ -1,4 +1,4 @@
-dev-env:
+devenv:
 	@echo "Creating development environment..."
 	uv pip install -Ue .
 
