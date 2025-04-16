@@ -51,7 +51,7 @@ uv lock
 
 ```bash
 # to run all tests
-pytest
+uv run pytest
 
 # to run specific splits of the tests (mostly useful for CI, not standalone).
 make split-tests SPLITS=4 GROUP=2
