@@ -54,5 +54,7 @@
         //     "distribution": "miniforge"
         // },
     },
-    "postCreateCommand": "make devenv",
+    "onCreateCommand": "make devenv",
+    "postCreateCommand": "uv run pytest",
+    "waitFor": "postCreateCommand",
 }
